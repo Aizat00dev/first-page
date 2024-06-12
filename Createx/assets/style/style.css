@@ -1,0 +1,99 @@
+@import "fonts.css";
+@import "reset.css";
+
+body{
+    font-family: "Ubuntu";
+    font-weight: 700;
+}
+.container1{
+    max-width: 1190px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    height: 80px;
+    background: #fff;
+    
+}
+.header__link{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%; 
+    color:#424551;
+    
+}
+.header__icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    column-gap: 36px;
+}
+.call{
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+color: #424551;
+}
+pre{
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.main{
+    background-image:url('../src/image.jpg');
+    height: 988px;
+}
+.create{
+    width: 577px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #fff;
+    padding-top: 220px;
+}
+span{
+    color: #FF5A30;
+}
+.txt{
+    width: 595px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+    color:#fff;
+    padding-top: 24px;
+}
+.learn{
+    width: 278px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid var(--white, #FFF);
+    text-align: center; 
+    font-size: 16px;
+    line-height: 52px; 
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.submit{
+width: 224px;
+height: 52px; 
+border-radius: 4px;
+background: var(--primary, #FF5A30);  
+text-align: center;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+color: #fff;
+text-transform: uppercase;
+margin-left: 24px;
+}
+.button{
+    padding-top: 60px;
+}
